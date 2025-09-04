@@ -57,7 +57,7 @@ Sistema que gera roteiros personalizados e sustentáveis com base em orçamento,
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-projeto.git
+git clone https://github.com/ZeBriguento/smart_route/
 
 #Acesse a pasta do projecto
 cd seu-projeto
