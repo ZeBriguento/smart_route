@@ -1,0 +1,16 @@
+activity_id,name,description,spot_id,transport_id
+1,Visita guiada,Tour pelo museu,1,1
+2,Banho de mar,Praia relaxante,2,2
+3,Fotografia histórica,Fotos da fortaleza,3,1
+4,Esportes aquáticos,Surf e stand-up,4,2
+5,Compras locais,Experiência cultural e gastronômica,5,2
+6,Trilha e aventura,Exploração da Serra da Leba,6,1
+7,Museu histórico,Visita ao Museu do Sangro,7,1
+8,Safari ecológico,Observação de animais,8,3
+9,Relaxar na praia,Banho e descanso,9,2
+10,Visita cultural,Igreja histórica,10,2
+11,Passeio na lagoa,Passeio e lazer,11,1
+12,Passeio de buggy,Exploração do deserto,12,3
+13,Banho de sol,Praia e descanso,13,2
+14,Fotografia das cachoeiras,Fotos da natureza,14,1
+15,Trilhas ecológicas,Exploração do Parque Morro de Cal,15,1

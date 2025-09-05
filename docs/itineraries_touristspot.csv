@@ -1,0 +1,16 @@
+spot_id,name,description,average_daily_cost,province_id
+1,Museu Nacional,Museu de história e cultura,50,1
+2,Ilha do Cabo,Praia e lazer,70,1
+3,Fortaleza de São Miguel,Patrimônio histórico,60,1
+4,Praia do Lobito,Praia para banho e esportes aquáticos,60,2
+5,Mercado de Benguela,Experiência gastronômica e cultural,40,2
+6,Serra da Leba,Trilhas e aventura,45,3
+7,Museu do Sangro,Museu histórico e cultural,35,3
+8,Parque Nacional de Cabinda,Natureza e fauna,70,4
+9,Praia de Tchiowa,Praia e lazer,60,4
+10,Igreja São José,Patrimônio cultural,30,5
+11,Lagoa do Mussende,Natureza e lazer,40,5
+12,Deserto do Namibe,Aventura no deserto,80,6
+13,Praia do Ponto do Tal,Praia e descanso,60,6
+14,Cachoeiras Kalandula,Cachoeiras famosas,45,7
+15,Parque Natural Morro de Cal,Natureza e trilhas,50,7

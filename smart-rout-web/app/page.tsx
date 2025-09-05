@@ -33,14 +33,27 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen p-8 gap-8">
-      <div className="w-1/3">
+    <main className="flex min-h-screen p-8 gap-8 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('conceito-de-viagem-completo-com-pontos-de-referencia.jpg')" }}>
+      <div className="w-1/3 pt-32">
         <PlanningForm onSubmit={handleGenerateItinerary} />
       </div>
-      <div className="w-2/3">
-        {loading && <p>Gerando roteiro...</p>}
-        {itinerary && <SuggestedItinerary itinerary={itinerary} />}
+     <div className="w-2/3 pt-16 flex flex-col items-center justify-center">
+  {loading && (
+    <div className="flex flex-col items-center space-y-4">
+      <div className="flex space-x-1">
+        <div className="w-2 h-6 bg-blue-500 animate-bounce"></div>
+        <div className="w-2 h-6 bg-blue-500 animate-bounce [animation-delay:-0.2s]"></div>
+        <div className="w-2 h-6 bg-blue-500 animate-bounce [animation-delay:-0.4s]"></div>
       </div>
+      <p className="text-blue-200 text-lg font-medium animate-pulse">
+        Gerando roteiro...
+      </p>
+    </div>
+  )}
+
+  {itinerary && <SuggestedItinerary itinerary={itinerary} />}
+</div>
+
     </main>
   );
 }
